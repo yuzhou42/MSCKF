@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # msckf-swf-comparison
 MATLAB code and data for our CRV 2015 paper, "The Battle for Filter Supremacy: A Comparative Study of the Multi-State Constraint Kalman Filter and the Sliding Window Filter".
 
@@ -13,3 +14,7 @@ If you use this work in your research, please cite:
 }
 ```
 使用了JPL四元数表示方式
+=======
+# MSCKF
+MSCKF 中文注释版
+>>>>>>> cfae8127c7d13316b9c5c1729bed65721b8e769e
