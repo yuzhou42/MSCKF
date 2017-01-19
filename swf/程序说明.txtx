@@ -1,0 +1,10 @@
+参考文献1：The Battle for Filter Supremacy: A Comparative Study of the Multi-State Constraint Kalman Filter and the Sliding Window Filter
+
+相机状态camStates：
+camStates{k}.q_CG        4x1 Global到camera 的旋转四元数
+camStates{k}.p_C_G       3x1 Global坐标系下的Camera位置
+camStates{k}.trackedFeatureIds  当前相机跟踪到的特征ID
+
+特征点观测结构体observedLandmarkStructs：
+observedLandmarkStructs.camStates       相机状态
+observedLandmarkStructs.observations    特征点的观测
